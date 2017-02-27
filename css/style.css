@@ -1,0 +1,304 @@
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+	font-family:'Source Sans Pro', sans-serif;
+}
+
+h1{
+	font-weight: 800;
+	color: yellow;
+	font-size: 40px;
+	float: left;
+	padding-bottom: 10px;
+	font-family:'Merriweather', sans-serif;
+
+}
+
+header {
+	background-color: black;
+	padding: 50px 25px;
+ }
+
+ footer{
+ 	background-color: black;
+	padding: 50px 25px;
+
+ }
+ .footer p{
+ 	color:white;
+ 	font-size: 24px;
+ 	font-weight: 800px;
+ }
+
+nav {
+ 	float: right;
+ 	font-size: 20px;
+ 	color:white;
+ 	
+
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav a:active{
+	background-color:grey;
+}
+/*not sure how to get background to go grey when clicking on it*/
+
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover{color:yellow;}
+
+
+nav a li:nth-child(-n+2) {
+	font-weight: 800;
+	font-family: 'Oswald', sans-serif;
+}
+
+.twobrains {
+    border-top: 5px solid yellow;
+    font-style: italic;
+    text-align: center;
+
+}
+ .twobrains p{
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #dad9dd;
+    padding-top: 15px; 
+    padding-bottom: 10px;
+}
+
+.taste{
+	text-decoration: line-through;
+	color: grey;
+}
+
+.are{
+	text-decoration: underline;
+	/* cannot figure out how to make underline yellow. text-decoration-line:yellow;*/
+}
+
+.picture{
+	border-top:0.5px solid grey;
+	background-image: url("../images/coworking.jpg");
+	background-size:cover;
+	background-position: center;
+	padding: 100px;
+	overflow: hidden;
+
+}
+.textbox {
+	background:#dad9dd;
+	width:40%;
+	margin:0 auto;
+	float:right;
+	padding:50px;
+	border:0.5px solid grey;
+}
+.match h2{
+	font-size:25px;
+	font-weight:800;
+}
+
+.match p{
+	font-size:20px;
+	font-weight:300;
+	padding:10px;
+	line-height: 30px;
+}
+.yellowbutton{
+	background: yellow;
+	border-radius:5px;
+	padding:15px;
+	box-shadow: 5px 5px #888888;
+	font-family: 'Oswald', sans-serif;
+		}
+
+.contactbutton{
+	display:block;
+	width:95%;
+	margin:0 auto;
+	padding:10px;
+	background: yellow;
+	border-radius:5px;
+	box-shadow: 2.5px 2.5px #888888;
+	font-family: 'Oswald', sans-serif;
+}
+
+.yellowbutton p, .contactbutton p{
+	font-weight:600;
+	text-transform: uppercase;
+	text-align:center;
+	color:black;
+
+}
+
+.bottom{
+	background-color: white;
+	width:100%;
+	overflow:hidden;
+	padding:100px;
+}
+
+.create{
+	float:left;
+	width:33.33%;
+	border-right:1px solid #a9abad;
+}
+.create h3{
+	font-weight:800;
+	font-size:26px;
+
+}
+.create p{
+	font-weight:200;
+	font-size:20px;
+	line-height: 30px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.greybutton{
+	background: #a9abad;
+	border-radius:2.5px;
+	width:90%;
+	padding:5px;
+	box-shadow:2.5px 2.5px #888888;
+
+}
+.greybutton p{
+	text-transform: uppercase;
+	text-align: center;
+	color:black;
+}
+.finddeveloper{
+	float:left;	
+	width:33.33%;
+	padding-left:20px;
+	border-right:1px solid #a9abad;
+}
+
+.finddeveloper h3{
+	font-weight:800;
+	font-size:26px;
+}
+
+.finddeveloper p{
+		font-weight:200;
+	font-size:20px;
+	line-height: 30px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.finddesigners{
+	float:right;
+	width:33.33%;
+	padding-left:20px;
+}
+
+.finddesigners h3{
+	font-weight:800;
+	font-size:26px;
+}
+
+.finddesigners p{
+		font-weight:200;
+	font-size:20px;
+	line-height: 30px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+
+/*need to look at fonts throughout index- do not match solution file*/
+
+/*designers and deveoper pages next*/
+
+/*designers page*/
+
+.allprofiles {
+	background: #d4d6d8;
+	padding: 10px;
+	overflow:hidden;
+	height:2400px;
+	margin:auto;
+}
+
+.profilebox{
+ 	width: 315px;
+    height: 450px;
+    background-color: #ECECEC;
+    border: 1px solid #C6C6C6;
+    border-radius: 3px;
+    text-align: left;
+    float:left;
+    margin-right:10px;
+    margin-bottom:20px;
+
+}
+figure { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+.profileimg img{
+	width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.profileimg{}
+	
+ figcaption{
+ 	padding-top: 20px;
+ 	padding-bottom:12px;
+ }
+ .skill{
+ 	overflow: hidden;
+ 	margin-bottom: 10px;
+ 	padding-left:27px;
+ }
+ .skill li{
+ 	float: left;
+
+ }
+
+ .skill li a{
+	display: block;
+	padding:5px 5px 5px 5px;
+	border-radius: 30px;
+	background-color: #7b7c7c;
+	font-size: 15px;
+	margin: 0 5px 5px 0;
+	color: white;
+	text-decoration: none;
+ }
+
+/*see yellowbutton for contactbutton styling*/
+
+
+	
+
+
+  
